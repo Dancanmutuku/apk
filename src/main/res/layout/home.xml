@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnCourseRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COURSE REGISTER"
+        android:textColor="#FFFFFF"
+        android:background="#666666"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/btnfocim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCourseRegister"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="8dp"
+        android:background="#666666"
+        android:text="FOCIM"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnsob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btnfocim"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@id/btnfocim"
+        android:background="#666666"
+        android:text="SOB"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
+
+
